@@ -1,0 +1,314 @@
+/* icone fixo whatsapp */
+.imageWhatsapp{
+    position: fixed;
+    width: 80px;
+    z-index: 99999;
+    bottom: 0;
+    right: 0;
+    margin: 40px;
+    cursor: pointer;
+}
+/* Input Pesquisa */
+.containerSearchInput{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.containerSearchInput {
+    input{
+
+        padding: 20px;
+        width: 60%;
+        background-color: #9F9F9F;
+        border: none;
+        border-radius: 30px;
+        outline: none;
+        font-family: sans-serif;
+    }
+    input::placeholder{
+        color: white;
+    }
+}
+
+
+/* Banner */
+
+.imageBuildingBanner{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    object-position: bottom;
+    margin-top: 20px;
+    position: relative;
+}
+
+/* Input imoveis por regiao */
+.containerGeneralInputSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    position: relative;
+}
+.containerinputSearchRegion{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100px;
+    position: relative;
+    padding: 40px;
+    gap: 5px;
+    border-radius: 30px;
+    
+    bottom: 50px;
+
+
+ /* Input Imoveis */
+
+ input{
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    border-radius: 15px;
+    border: 2px solid black;
+    outline: none;
+    font-family: sans-serif;
+    background-color: #DDDDDD;
+ }
+ input::placeholder{
+    color: black;
+ }
+
+ /* button buscas  */
+
+ button{
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: #B88E23;
+    cursor: pointer;
+    color: white;
+ }
+}
+
+/* Botão falar com um  corretor */
+
+.btnSpeaktoabroker{
+    position: absolute;
+    background-color: #B88E23;
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 120px;
+    color: white;
+    border-radius: 1000px;
+    right: 20px;
+    bottom: 580px;
+    cursor: pointer;
+}
+
+/* Sessão lançamentos */
+.titleSectionLancamentos{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+.sectionLançamentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 15px;
+    flex-direction: row;
+    gap: 60px;
+   
+}
+
+.sectionLançamentos h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+   
+
+}
+
+.imageLancamento{
+    width: 100px;
+    height: 200px;
+}
+
+.containerCardLançamento{
+    position: relative;
+    border-radius: 15px;
+    width: 400px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.containerCardLançamento:hover{
+    transform: scale(1.030) rotateX(10deg) rotateY(15deg); 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.titleCardLancamento{
+    background-color: #473A19;
+    color: white;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    font-family: "Bree Serif";
+    font-weight: 200;
+    font-size: 20px;
+}
+.containerCardLançamento img{
+width: 100%;
+height: 400px;
+object-fit: cover;
+border-radius: 0 0 15px 15px;
+
+}
+
+.containerCardLançamento div{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+    font-family: "sans-serif";
+}
+.containerBtnCarregarMais{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btnCarregarMais{
+    padding: 20px;
+    background-color: #B88E23;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+/* Newsletter */
+.sectionNewsLetter{
+    background-image: url("../ProcessoSeletivo-Dev_front_Jr/imagem9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+
+}
+.containerContentText{
+    width: 50%;
+}
+.ContainerNewsLetterContent{
+    background-color: white;
+    padding: 100px;
+    width: 80%;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.containerInputsNewsLetter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    input{
+        text-align: center;
+        border: 1px solid #4F4F4F;
+        background-color: #D8D8D8;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    div{
+       display: flex;
+       justify-content: center;
+    
+      
+       button{
+        background-color: #B88E23;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        color: white;
+        width: 150px;
+        cursor: pointer;
+       }
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .listamenu{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-family: sans-serif;
+    }
+}
+@media screen and (max-width:1000px) {
+    header{
+        flex-direction: column;
+    }
+
+    .listamenu{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        
+        li{
+            margin: 15px;
+        }
+        li:hover{
+            background-color: #9F9F9F;
+            padding: 10px;
+            border-radius: 15px;
+        }
+    }
+    #menuHamburguer{
+        display: block;
+    }
+    .btnSpeaktoabroker{
+        bottom: 550px;
+    }
+}
+@media screen and (max-width:800px) {
+    .sectionNewsLetter{
+        height: 800px;
+    }
+    .ContainerNewsLetterContent {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ 
+        
+    }
+    .containerContentText {
+width: 100%;
+    }
+    .containerInputsNewsLetter{
+width: 100%;
+    }
+}
+
+

@@ -1,0 +1,39 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:  10px 60px;
+
+}
+
+
+header img{
+    width: 300px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: sans-serif;
+}
+ul li{
+    list-style-type: none;
+    white-space: nowrap;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+ul li:hover{
+    scale: 1.050;
+}
+
+#menuHamburguer{
+    display: none;
+    cursor: pointer;
+}
+
+
+
+

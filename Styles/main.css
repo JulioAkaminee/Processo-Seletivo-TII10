@@ -108,8 +108,9 @@
     color: white;
     border-radius: 1000px;
     right: 20px;
-    bottom: 580px;
+    bottom: 320px;
     cursor: pointer;
+    display: none;
 }
 
 /* Sessão lançamentos */
@@ -287,9 +288,9 @@ border-radius: 0 0 15px 15px;
     #menuHamburguer{
         display: block;
     }
-    .btnSpeaktoabroker{
+    /* .btnSpeaktoabroker{
         bottom: 550px;
-    }
+    } */
 }
 @media screen and (max-width:800px) {
     .sectionNewsLetter{

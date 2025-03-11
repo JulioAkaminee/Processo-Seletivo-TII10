@@ -4,7 +4,7 @@ menuHamburguer.addEventListener("click", function() {
     const btnSpeaktoabroker = document.querySelector(".btnSpeaktoabroker");
 
     //alterar posição do botao fale com um corretor
-    btnSpeaktoabroker.style.bottom = (btnSpeaktoabroker.style.bottom === "550px" || btnSpeaktoabroker.style.bottom === "") ? "300px" : "550px";
+    btnSpeaktoabroker.style.bottom = (btnSpeaktoabroker.style.bottom === "320px" || btnSpeaktoabroker.style.bottom === "") ? "300px" : "320px";
 
     
     //Abrir e fechar o menu
